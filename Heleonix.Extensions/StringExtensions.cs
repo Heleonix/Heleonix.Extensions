@@ -27,7 +27,7 @@ namespace Heleonix.Extensions
         /// <example>
         /// var str = "{0} plus {1} equals {2}".FormatWith(1, 2, 3);
         ///
-        /// // "1 plus 2 equals 3"
+        /// // "1 plus 2 equals 3".
         /// </example>
         public static string FormatWith(this string format, params object[] args)
             => string.IsNullOrEmpty(format) ? string.Empty : string.Format(CultureInfo.CurrentCulture, format, args);
