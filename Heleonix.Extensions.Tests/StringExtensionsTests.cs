@@ -13,7 +13,7 @@ namespace Heleonix.Extensions.Tests
     using static Heleonix.Testing.NUnit.Aaa.AaaSpec;
 
     /// <summary>
-    /// Tests the <see cref="StringExtensions"/>
+    /// Tests the <see cref="StringExtensions"/>.
     /// </summary>
     [ComponentTest(Type = typeof(StringExtensions))]
     public static class StringExtensionsTests
