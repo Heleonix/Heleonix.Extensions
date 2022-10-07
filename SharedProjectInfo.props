@@ -1,13 +1,13 @@
 <Project>
   <PropertyGroup>
-    <Version>1.0.0</Version>
-    <PackageReleaseNotes>Split from the Heleonix.Utilities</PackageReleaseNotes>
+    <Version>2.0.0</Version>
+    <PackageReleaseNotes>Explicit support of netstandard2.0 only.</PackageReleaseNotes>
 
     <Description>Provides predicative and other useful extensions for objects, strings, enumerables etc.</Description>
     <PackageTags>Heleonix extensions predicate format</PackageTags>
 
     <Authors>Heleonix - Hennadii Lutsyshyn</Authors>
-    <Copyright>Copyright (c) 2017-present Heleonix - Hennadii Lutsyshyn</Copyright>
+    <Copyright>Copyright (c) Heleonix - Hennadii Lutsyshyn</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 
     <RepositoryType>git</RepositoryType>
