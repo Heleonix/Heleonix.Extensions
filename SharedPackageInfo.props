@@ -1,11 +1,6 @@
 <Project>
   <PropertyGroup>
     <Version>3.0.0</Version>
-    <PackageReleaseNotes>Explicit support of netstandard2.0 only.</PackageReleaseNotes>
-
-    <Description>Provides predicative and other useful extensions for objects, strings, enumerables etc.</Description>
-    <PackageTags>Heleonix extensions predicate format</PackageTags>
-
     <Authors>Heleonix - Hennadii Lutsyshyn</Authors>
     <Copyright>Copyright (c) Heleonix - Hennadii Lutsyshyn</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -16,10 +11,19 @@
     <PackageProjectUrl>https://github.com/Heleonix/Heleonix.Extensions</PackageProjectUrl>
     <PackageIconUrl>https://s.gravatar.com/avatar/22d1d9391b9f682a589d324d403ec0d8?s=256</PackageIconUrl>
 
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <IsPackable>true</IsPackable>
-    <IsTool>false</IsTool>
     <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <IncludeSource>false</IncludeSource>
     <NoPackageAnalysis>true</NoPackageAnalysis>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
